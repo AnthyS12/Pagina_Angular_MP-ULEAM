@@ -1,0 +1,169 @@
+
+.titulo{
+    margin-bottom: 1rem;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.div-contacto{
+    width: 100%;
+    height: 90%;;
+}
+.titu{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.titu2{
+    font-size: 1.5rem;
+    color: #fff;
+
+    margin-top: 0.5rem;
+}
+.hero{
+    background-image: url(/assets/portada.jpg);
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+    position: relative;
+
+    margin-top: 1.5rem;
+}
+
+.contenido{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    background-color: rgb(0 0 0 / 60%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 2.5rem;
+
+}
+.autor{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+li{
+    line-height: 2.5rem;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 0rem;
+}
+.logo-imagen{
+    // background-image: url(/assets/LogoUleam.jpg);
+    position: absolute;
+    top: -60%;
+    right: -27%;
+    width: auto;
+    height: 6rem;
+}
+@media (min-width:390px){
+    .logo-imagen{
+        // background-image: url(/assets/LogoUleam.jpg);
+        position: absolute;
+        top: -75%;
+        right: -19%;
+        width: auto;
+        height: 7rem;
+    }
+    .titu{
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+    .titu2{
+        font-size: 1.8rem;
+        text-align: center;
+        color: #fff;
+        
+    }
+    .contenido{
+        line-height: 2.5rem;
+    }
+    .logo{
+        margin-bottom: 0.5rem;
+    }
+
+}
+@media (min-width:768px){
+    .autores{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        align-items: flex-start;
+    }
+    .logo{
+        margin-bottom: 0;
+    }
+    .logo-imagen{
+        // background-image: url(/assets/LogoUleam.jpg);
+        position: absolute;
+        top: -128%;
+        right: 0;
+        width: auto;
+        height: 12rem;
+    }
+    .titu{
+        font-size: 3rem;
+        text-align: center;
+        color: #fff;
+    }
+    .titu2{
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+    .contenido{
+        line-height: 2.5rem;
+    }
+
+}
+
+@media (min-width:1440px){
+    .titu{
+        font-size: 4rem;
+        text-align: center;
+        color: #fff;
+    }
+    .titu2{
+        font-size: 3rem;
+        text-align: center;
+        color: #fff;
+        margin-top: 0;
+    }
+    .contenido{
+        line-height: 5rem;
+    }
+    .autor{
+        font-size: 2.3rem;
+        line-height: 5rem;
+    }
+}
+
+// @media (min-width:768px){
+
+// }

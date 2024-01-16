@@ -1,5 +1,10 @@
 # MaterialParticuladoIoT
 
+instalar paquetes con
+npm install
+
+correr con
+ng serve --o
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
 ## Development server
